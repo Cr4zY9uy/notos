@@ -1,0 +1,115 @@
+.nav-bar {
+    overflow: hidden;
+    border-top: 0.01rem solid #0000001e;
+}
+
+.nav-bar a {
+    float: left;
+    font-size: 16px;
+    color: #000000ce;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.dropmenu {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000000ce;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    width: 200px;
+    margin: 0;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+}
+
+.dropmenu::after {
+    content: '';
+    height: 40%;
+    width: 1px;
+
+    position: absolute;
+    right: 0;
+    top: 30%;
+
+    background-color: #0000003e;
+}
+
+
+.menu1 {
+    float: left;
+    overflow: hidden;
+    padding-left: 0;
+    min-width: 200px;
+
+}
+
+.menu2 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.menu2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+.menu1:hover .menu2 {
+    display: block;
+    z-index: 10;
+}
+
+/* .nav-bar a:hover::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    border: 1px solid red;
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: #000000;
+} */
+.menu1_item,.menu1 {
+    position: relative;
+}
+
+.menu1_item::before,.menu1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .1rem;
+
+
+}
+
+.menu1_item:hover::before,.menu1:hover::before {
+    background-color: #0000003e;
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform .9s ease;
+}
+.parent_nav{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff80;
+    z-index: 1000;
+}

@@ -1,0 +1,55 @@
+.products_filter {
+    display: flex;
+    padding: 70px 0px 30px 50px;
+
+}
+
+.filterCAP {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.products_cate {
+    width: 70%;
+}
+
+.filterCAP,
+.filterCate,
+.filterPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #000000ce;
+}
+
+.filterCate {
+    padding: 0px 0 30px;
+}
+
+.filterCate span,
+.filterPrice span {
+    padding: 0.3rem 0;
+    cursor: pointer;
+}
+
+.filterCAP h5 {
+    font-size: 25px;
+}
+
+.filterCate span:nth-child(n+4) {
+    padding-left: 1rem;
+}
+
+.clear {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cate_hidden,
+.price_hidden {
+    padding-top: .8rem;
+    margin-bottom: .8rem;
+    color: #ff0000bd;
+    font-size: 1.4rem;
+    line-height: .3px;
+}

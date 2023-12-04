@@ -1,0 +1,147 @@
+.checkout_title {
+    color: #000000ce;
+
+}
+
+.bill {
+    width: 56vw;
+    border: 0.01rem solid #343a4028;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.bill_detail {
+    width: 35vw;
+    overflow: hidden;
+    color: #343a40;
+    padding-top: 30px;
+    border: 0.01rem solid #343a4028;
+
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+.bill label {
+    color: #000000bb;
+    text-align: left;
+    width: 100%;
+
+}
+
+.bill_detail h5,
+.bill_detail span {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.sumary_title {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.bill_detail h3 {
+    font-size: 1.2rem;
+
+}
+
+.credit,
+.paypal,
+.cod {
+    border: 0.01rem solid #343a4028;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0.375rem;
+    font-size: 1.3rem;
+}
+
+.credit span,
+.paypal span,
+.cod span {
+    padding-left: 15px;
+    font-size: 0.9rem;
+}
+
+
+.free,
+.standard,
+.express {
+    border: 0.01rem solid #343a4028;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0.375rem;
+    font-size: 1.3rem;
+}
+
+.free span,
+.standard span,
+.express span {
+    padding-left: 15px;
+    font-size: 0.9rem;
+}
+
+.active .bi-check2-circle {
+    color: #0000ff;
+}
+
+.product_summary,
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic span {
+    padding-left: 20px;
+    font-size: 0.7rem;
+}
+
+.product_summary {
+    padding: 10px 0;
+}
+
+.order_info {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border-bottom: 0.01rem solid #343a4028;
+}
+
+.order_sumary {
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+.total_bill {
+    padding-bottom: 30px;
+}
+
+.btn.btn-outline-success {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.subTotal_bill h5,
+.shipping_bill h5,
+.tax_bill h5 {
+    font-weight: 400;
+}
+
+#total {
+    font-weight: 500;
+    font-size: 1.4rem;
+}

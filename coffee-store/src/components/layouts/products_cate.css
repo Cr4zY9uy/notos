@@ -1,0 +1,124 @@
+.products_result>figure {
+    width: 25%;
+    margin: 0 0px 30px 0px;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.result h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000ce;
+    padding: 8px 0 30px;
+}
+
+.products_result>figure:last-of-type {
+    margin-right: 0;
+}
+
+.products_result>figure:first-of-type {
+    margin-left: 0;
+}
+
+.product-action button {
+    width: 100%;
+    text-transform: uppercase;
+    color: #333;
+    border: .1rem solid #ebebeb;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    display: none;
+    transition: all .12s ease;
+
+}
+
+.products_result>figure:hover .product-action>button {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    animation: SlideUp .3s ease-in-out;
+}
+
+.products_result>figure p {
+    margin-bottom: 0;
+}
+
+.products_result>figure p:first-of-type {
+    margin-top: 10px;
+}
+
+.product-action>button:hover {
+    background-color: #a49e9e;
+    color: #ebebeb;
+}
+
+@keyframes SlideUp {
+    0% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.favourite {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+
+.favourite>i {
+    color: #1c1c1cc5;
+    z-index: 100;
+    font-size: 13px;
+    vertical-align: middle !important;
+}
+
+.favourite:hover>i {
+    color: #ffffff !important;
+}
+
+.favourite:hover {
+    background-color: #a49e9e;
+}
+
+.sold_out {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-image: url('/public/images/soldout.png');
+    background-size: 40px 40px;
+}
+
+.btn-product.btn-cart:disabled {
+    background-color: #a49e9e;
+    color: #333;
+}
+
+.products_result>figure:hover .favourite {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 140px;
+    animation: SlideLeft .3s ease-in-out;
+}
+
+@keyframes SlideLeft {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}

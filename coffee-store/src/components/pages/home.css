@@ -1,0 +1,86 @@
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] {
+    border-bottom: none !important;
+    width: 450px;
+    padding-top: 80px;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link'],
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link']:hover {
+    color: #495057;
+    background-color: #ffffff !important;
+    font-size: 2.3rem;
+    font-weight: 500;
+    border: none !important;
+    transition: none !important;
+    width: 150px !important;
+    height: 60px !important;
+    border-radius: 0 !important;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link active'] {
+
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-radius: 0 !important;
+    border: none !important;
+    width: 150px !important;
+    height: 60px !important;
+
+}
+
+
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link'],
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link active'] {
+    position: relative;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link']::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .2rem;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link active']::before {
+    content: '';
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .2rem;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link']:hover::before {
+    background-color: #000000;
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform .9s ease;
+}
+
+ul[class="mb-3 home-tab tab nav nav-tabs nav-fill"] li[class='nav-item'] button[class='nav-link']:hover {
+    color: #000000;
+}
+
+.tab-pane .rating {
+    color: #d8d81a;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+.tab-pane .product_price {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #c94444;
+    line-height: 1.1rem;
+}
+
+.tab-pane .product_name {
+    font-size: 1.15rem;
+    font-weight: 400;
+}

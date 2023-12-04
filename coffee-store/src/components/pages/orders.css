@@ -1,0 +1,38 @@
+.title_orders {
+    color: #000000ce;
+    padding: 10px 0;
+}
+
+.table thead {
+    --bs-table-bg: var(--bs-gray-800);
+    --bs-table-color: var(--bs-light);
+    font-weight: 200;
+
+}
+
+.table {
+    vertical-align: middle;
+}
+
+.table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    --bs-table-color: var(--bs-gray-600);
+}
+
+.detail {
+    display: block;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px !important;
+    width: 140px;
+    color: #a6c76c;
+    border: .01rem solid #a6c76c;
+    border-radius: .2rem;
+}
+
+.link_detail {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 190px;
+}

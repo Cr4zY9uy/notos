@@ -1,0 +1,48 @@
+.delete_cart {
+    color: hsla(0, 0%, 0%, 0.294);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete_cart:hover {
+    color: #000000;
+
+}
+
+.product {
+    padding-top: 20px;
+}
+
+#shopping-products-table {
+    width: 55vw;
+}
+
+#shopping-products-table thead tr {
+    --bs-table-bg: var(--bs-light);
+    --bs-table-color: var(--bs--gray-800)
+}
+
+.btn_delete_cart {
+    padding: 7px 40px !important;
+    margin: 20px 0 80px;
+    font-weight: 500;
+}
+
+.btn-danger {
+    width: 100%;
+    font-weight: 500;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+#productShop img {
+
+    object-fit: contain;
+
+}
+
+.invoice {
+    background-color: #e9ecef61;
+    border: 0.01rem solid #ced4da;
+    padding-top: 20px;
+}

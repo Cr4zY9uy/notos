@@ -1,0 +1,28 @@
+.footer {
+    padding: 60px 0;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer h5 {
+    font-size: 1rem;
+}
+
+.copyright {
+    padding: 20px 0 0;
+
+}
+
+.copyright h5 {
+    font-size: 0.8rem;
+}
+
+.footer_hr {
+    margin-top: 40px;
+    border-top-color: #74717195;
+    border-top-style: solid;
+    border-top-width: 0.2px;
+}

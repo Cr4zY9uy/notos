@@ -1,0 +1,7 @@
+.words:first-of-type {
+    font-size: 1.3rem;
+}
+.words:last-of-type{
+    font-size: 1rem;
+
+}

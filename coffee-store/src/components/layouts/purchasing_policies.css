@@ -1,0 +1,38 @@
+.purchasing-policies {
+    margin: 40px 0 0;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #e4e3e395;
+}
+
+hr[class="container"] {
+    border-top-color: #74717195;
+    border-top-style: solid;
+    border-top-width: 0.2px;
+}
+
+.sub_poli {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_poli {
+    height: 100%;
+}
+
+.policies_icon {
+    float: left;
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.caption {
+    margin: 0;
+}
+
+.content_box p{
+    text-align: left;
+}
