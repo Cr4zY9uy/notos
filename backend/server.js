@@ -849,3 +849,4 @@ app.get("/user/cart/:user_id", async (req, res) => {
         return res.json({ message: error.message });
     }
 });
+module.exports = app;
