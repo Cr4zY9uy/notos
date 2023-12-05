@@ -121,7 +121,11 @@ function Checkout(props) {
             alert(error.message);
         }
     }
-
+  useEffect(() => {
+    if (data.order != null) {
+      delete_cart_A_add_order();
+    }
+  }, [data]);
     const delete_cart_A_add_order = async () => {
         console.log(data);
         if (data.order != null) {
