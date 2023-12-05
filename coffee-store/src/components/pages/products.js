@@ -36,7 +36,6 @@ function Products() {
     const loadPriceFilter = async () => {
         try {
             const rs = await product_price(startPrice, endPrice, page);
-            setPage(1);
             setTotalProducts(rs._totalProduct);
             setProducts(rs.products);
         }
