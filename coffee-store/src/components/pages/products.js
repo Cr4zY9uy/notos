@@ -138,6 +138,7 @@ function Products() {
                 </div>
                 {products && products.length !== undefined ? (<Pagination
                     total={totalProducts}
+                 pageSize={8}
                     current={page}
                     onChange={(page) => setPage(page)}
                 />) : <div></div>}
